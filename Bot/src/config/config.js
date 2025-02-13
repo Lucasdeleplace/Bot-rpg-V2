@@ -1,5 +1,5 @@
 module.exports = {
-    apiUrl: process.env.API_URL || 'http://localhost:5000/api',
+    apiUrl: process.env.API_URL || 'http://localhost:5116/api',
     defaultPrefix: '!',
     embedColor: '#0099ff',
     maxCharactersPerUser: 3,

@@ -10,6 +10,8 @@ namespace Api_Bot_RPG.Models
         public int CoutPoints { get; set; }
         public List<int> PrerequisSkillIds { get; set; }
         public List<SkillEffect> Effets { get; set; } = new();
+        public bool EstDebloque { get; set; }
+        public int Niveau { get; set; }
 
         public SkillNode()
         {
